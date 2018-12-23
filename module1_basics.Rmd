@@ -19,8 +19,8 @@ air <- read.csv(file.path('..', 'data', 'airline.csv'), stringsAsFactors = FALSE
 sqrt(4^4) # functions
 log(10)
 log(100, base = 10)
-23 %/% 2 
-23 %% 2
+23 %/% 2 # x mod y, in this case 23 mod 2 = 1
+23 %% 2 
 
 # scientific notation
 5000000000 * 1000
@@ -50,6 +50,9 @@ mySeq
 myOtherSeq <- seq(1.1, 11.1, by = 2)
 myOtherSeq
 length(myOtherSeq)
+
+exmyOtherSeq <-seq(1,10,by=1)
+exmyOtherSeq
 
 fours <- rep(4, 6)
 fours
